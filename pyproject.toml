@@ -1,0 +1,55 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "a4f-local"
+version = "0.1.0"
+description = "A unified wrapper for various reverse-engineered AI provider APIs, aiming for OpenAI compatibility."
+readme = "README.md"
+requires-python = ">=3.8"
+license = { file = "LICENSE" }
+authors = [
+  { name = "DevsDoCode" },
+]
+keywords = ["openai", "tts", "ai", "wrapper", "reverse-engineering", "api", "text-to-speech"]
+classifiers = [
+    "Development Status :: 3 - Alpha", # Initial development stage
+    "Programming Language :: Python :: 3",
+    "License :: Other/Proprietary License", # Custom license
+    "Operating System :: OS Independent",
+    "Intended Audience :: Developers",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dependencies = [
+    "requests>=2.20.0",
+    "pydantic>=2.0.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/Devs-Do-Code/a4f-local"
+Repository = "https://github.com/Devs-Do-Code/a4f-local"
+YouTube = "https://www.youtube.com/@DevsDoCode"
+Instagram = "https://www.instagram.com/sree.shades_/"
+"Twitter/X" = "https://x.com/Anand_Sreejan"
+Telegram = "https://t.me/devsdocode"
+Discord = "https://discord.com/invite/4gGcqsWWde"
+LinkedIn = "https://www.linkedin.com/in/developer-sreejan/"
+"Personal GitHub" = "https://github.com/SreejanPersonal"
+
+[project.optional-dependencies]
+test = [
+    "pytest>=6.0",
+]
+docs = [
+    "sphinx>=4.0.0",
+    "sphinx-rtd-theme>=1.0.0",
+    # Add other docs dependencies from docs/requirements.txt if needed
+]
+dev = [
+    "a4f-local[test,docs]", # Includes test and docs dependencies
+    # Add other dev tools like linters (flake8, black, mypy), build tools etc.
+    "build",
+    "twine",
+]

@@ -1,0 +1,53 @@
+a4f-local - Software License Agreement
+Copyright (c) 2025 DevsDoCode
+All rights reserved.
+
+Preamble:
+This software, a4f-local, is the intellectual property of DevsDoCode. It is made available to the public under the terms of this license to encourage collaboration and innovation while ensuring the original author receives full recognition, control, and, where applicable, compensation. The following terms are binding on all users, distributors, and modifiers of this software.
+
+1. Definitions
+   - "Software" refers to the a4f-local project, including all source code, documentation, and associated files provided by the Author.
+   - "Author" refers to DevsDoCode, the original creator of the Software.
+   - "User" refers to any individual or entity exercising permissions granted by this License.
+   - "Derivative Work" refers to any modification, adaptation, or extension of the Software created by a User.
+
+2. Grant of License
+   Permission is hereby granted, free of charge, to any User to use, copy, modify, and distribute the Software, subject to the conditions outlined in this License.
+
+3. Attribution Requirements
+   - Any User of the Software or Derivative Work must provide prominent attribution to the Author in all copies, distributions, and public uses. Attribution must include:
+     a. The full text: "Originally created by DevsDoCode - all rights reserved."
+     b. A hyperlink to the Author's GitHub profile: https://github.com/Devs-Do-Code
+     c. A clear statement acknowledging the Author’s role as the original creator in relevant documentation, user interfaces (if applicable), README files, and any associated marketing materials.
+   - Failure to provide this attribution in a conspicuous manner voids the User’s rights under this License.
+
+4. Open-Source Mandate (Share-Alike)
+   - Any Derivative Work based on the Software must be distributed under the exact terms of this License.
+   - The complete source code of any Derivative Work must be made publicly available alongside its distribution, at no additional cost beyond reasonable distribution costs.
+   - Users creating Derivative Works must notify the Author via LinkedIn (https://www.linkedin.com/in/developer-sreejan/) within 30 days of the first public distribution, providing a link to the Derivative Work’s publicly accessible source code repository.
+
+5. Restriction on Commercial Use
+   - The Software and any Derivative Work may not be used for commercial purposes (defined as any use primarily intended for or directed towards commercial advantage or monetary compensation) without explicit prior written permission from the Author.
+   - To request permission for commercial use, contact the Author via LinkedIn: https://www.linkedin.com/in/developer-sreejan/
+   - If commercial use is permitted by the Author in writing:
+     a. The User must strictly adhere to the attribution requirements specified in Section 3.
+     b. The User agrees to pay the Author a royalty of 25% of all net income derived directly from the commercial use of the Software or Derivative Work. "Net income" is defined as gross revenue minus direct operational expenses related to the Software/Derivative Work. Royalties are payable quarterly.
+     c. The User must submit a written report to the Author every quarter detailing the income generated and relevant expenses incurred, along with the royalty payment. Reports and payments should be arranged via the contact method specified above (LinkedIn).
+   - Unauthorized commercial use constitutes a violation of this License, automatically terminates all rights granted herein, and may subject the User to legal action.
+
+6. Modifications and Derivative Works
+   - Users may modify the Software, provided that:
+     a. All modifications are clearly documented, distinguishing them from the original Software. The original Author's foundational role must remain clear.
+     b. Derivative Works do not state or imply endorsement by the Author unless explicit written consent is obtained.
+     c. The Author reserves the right to request the removal of their name or attribution from any Derivative Work if, in the Author's sole judgment, the Derivative Work significantly misrepresents or deviates negatively from the original intent or quality of the Software.
+
+7. Disclaimer of Warranty and Limitation of Liability
+   - THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+   - IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+8. Termination
+   - This License and the rights granted hereunder will terminate automatically if the User fails to comply with any of its terms.
+   - Upon termination, the User must immediately cease all use, copying, modification, and distribution of the Software and destroy all copies in their possession or control.
+
+9. Governing Law
+   - This License shall be governed by and construed in accordance with the laws of the jurisdiction in which the Author resides, without regard to its conflict of law provisions.

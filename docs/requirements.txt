@@ -1,0 +1,10 @@
+# Documentation dependencies
+sphinx>=4.0.0
+sphinx-rtd-theme>=1.0.0
+# Add other Sphinx extensions here if needed, e.g.:
+# sphinx-autodoc-typehints
+# myst-parser
+
+pydantic==2.11.3
+Requests==2.32.3
+setuptools==70.0.0

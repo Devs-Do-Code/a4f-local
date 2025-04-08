@@ -1,0 +1,42 @@
+name: Publish Python Package to PyPI
+
+on:
+  release:
+    types: [published] # Trigger only when a release is published on GitHub
+
+permissions:
+  contents: read
+  # IMPORTANT: This permission is needed for uploading to PyPI using trusted publishing.
+  id-token: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.x' # Use a recent Python 3 version for building
+
+    - name: Install build dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install build twine
+
+    - name: Build package
+      run: python -m build
+
+    - name: Publish package to PyPI
+      # Uses PyPI's trusted publishing feature (OIDC) - requires setup on PyPI.
+      # See: https://docs.pypi.org/trusted-publishers/
+      # You need to configure this project as a trusted publisher on PyPI.
+      uses: pypa/gh-action-pypi-publish@release/v1
+      # No API token needed here if trusted publishing is configured.
+      # If not using trusted publishing, you would need to add secrets:
+      # with:
+      #   user: __token__
+      #   password: ${{ secrets.PYPI_API_TOKEN }} # Store your PyPI token as a GitHub secret
