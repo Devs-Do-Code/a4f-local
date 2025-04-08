@@ -6,13 +6,9 @@ from pathlib import Path
 project_root = Path(__file__).parent.parent
 sys.path.insert(0, str(project_root))
 
-try:
-    from a4f_local import A4F
-except ImportError:
-    print("ERROR: Could not import A4F. Make sure the package is installed or run from the project root.")
-    sys.exit(1)
+from a4f_local import A4F
 
-def test_simple_tts():
+def tts():
     """Runs a simple TTS test compatible with pytest."""
     try:
         client = A4F()
@@ -41,4 +37,5 @@ def test_simple_tts():
         print(f"FAILED: An error occurred during the test: {e}")
         raise # Re-raise exception for pytest to capture failure
 
-# No need for __main__ block when using pytest
+# if __name__ == "__main__":
+#     tts()
