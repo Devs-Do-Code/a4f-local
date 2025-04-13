@@ -1,25 +1,21 @@
 # Changelog
 
-All notable changes to this project will be documented in this file.
+All notable changes to this project are documented here.
 
-The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
-and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+## [0.1.1] - 2025-04-14
 
-## [Unreleased]
+- Added support for new OpenAI TTS voices: ash, coral, and sage. These voices can now be used in TTS requests if supported by the backend API.
+- Updated type validation and provider engine to accept the new voices.
+- Improved README with clearer installation instructions and updated roadmap.
 
-### Added
-- Initial project structure based on developer guide.
-- Core `A4F` client class.
-- Provider discovery mechanism.
-- Pydantic types for TTS requests.
-- Example TTS provider (`provider_1`) using OpenAI.fm reverse-engineered API.
-- Basic import-based test script (`tests/test_tts.py`).
-- `pyproject.toml` for packaging.
-- `LICENSE` file with custom license.
-- `README.md`, `.gitignore`.
+## [0.1.0] - 2025-04-10
 
-## [0.1.0] - YYYY-MM-DD
-
-### Added
-- First official release (Placeholder - update date upon release).
-- All features from the Unreleased section above.
+- Initial release of a4f-local.
+- Introduced the core A4F client class for unified access to reverse-engineered AI provider APIs.
+- Implemented provider discovery mechanism.
+- Added Pydantic types for TTS requests.
+- Included example TTS provider (provider_1) using OpenAI.fm reverse-engineered API.
+- Added basic import-based test script (tests/test_tts.py).
+- Provided pyproject.toml for packaging and distribution.
+- Added LICENSE file with custom license.
+- Included comprehensive README and .gitignore.
