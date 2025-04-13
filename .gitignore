@@ -134,6 +134,7 @@ dmypy.json
 cython_debug/
 
 # Test outputs
+*.mp3
 tests/*.mp3
 tests/*.wav
 tests/*.log
