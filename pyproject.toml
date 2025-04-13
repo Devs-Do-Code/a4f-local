@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "a4f-local"
-version = "0.1.0"
+version = "0.1.1"
 description = "A unified wrapper for various reverse-engineered AI provider APIs, aiming for OpenAI compatibility."
 readme = "README.md"
 requires-python = ">=3.8"

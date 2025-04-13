@@ -1,5 +1,8 @@
 # a4f-local
 
+[![PyPI version](https://img.shields.io/pypi/v/a4f-local.svg?style=flat-square)](https://pypi.org/project/a4f-local/)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/a4f-local.svg?style=flat-square)](https://pypi.org/project/a4f-local/)
+
 A unified, professional Python wrapper for various reverse-engineered AI provider APIs, designed to be **OpenAI-compatible** and **easy to use**.
 
 ---
@@ -16,17 +19,10 @@ A unified, professional Python wrapper for various reverse-engineered AI provide
 
 ## Installation
 
-First, **clone this repository**:
+Install directly from PyPI:
 
 ```bash
-git clone https://github.com/Devs-Do-Code/a4f-local.git
-cd a4f-local
-```
-
-Then, **install the package locally**:
-
-```bash
-pip install .
+pip install -U a4f-local
 ```
 
 ---
@@ -80,8 +76,6 @@ Use one of these as the `voice` parameter in your TTS requests.
 ## Roadmap
 
 - **More Providers:** Support for chat, image generation, and other AI capabilities.
-- **New Models:** If everything goes well, support for **OpenAI's latest and most advanced models** — `ash`, `coral`, and `sage` — will also be added.
-- **PyPI Release:** This package will be published on PyPI soon. More detailed documentation and examples will be added at that time.
 - **Configuration:** Easier ways to configure API keys and provider preferences.
 - **Async Support:** Async versions of API calls.
 - **Better Error Handling:** More informative error messages and exceptions.
@@ -102,7 +96,7 @@ This package uses **reverse-engineered, unofficial APIs**. These may break or ch
 
 ## More Information
 
-More detailed documentation, tutorials, and examples will be published **once the package is released on PyPI**.
+More detailed documentation, tutorials, and examples will be published here and on PyPI.
 
 For now, refer to the example above and the source code for guidance.
 

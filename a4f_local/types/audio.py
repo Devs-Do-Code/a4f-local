@@ -9,7 +9,7 @@ class SpeechCreateRequest(BaseModel):
     """
     model: str = Field(..., description="One of the available TTS models, e.g., tts-1 or tts-1-hd")
     input: str = Field(..., max_length=4096, description="The text to generate audio from. The maximum length is 4096 characters.")
-    voice: Literal["alloy", "echo", "fable", "onyx", "nova", "shimmer"] = Field(..., description="The voice to use for synthesis.")
+    voice: Literal["alloy", "echo", "fable", "onyx", "nova", "shimmer", "ash", "coral", "sage"] = Field(..., description="The voice to use for synthesis.")
     response_format: Optional[Literal["mp3", "opus", "aac", "flac", "wav", "pcm"]] = Field(
         default="mp3",
         description="The format to audio in. Supported formats are mp3, opus, aac, flac, wav, and pcm."

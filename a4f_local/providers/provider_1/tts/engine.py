@@ -1,6 +1,6 @@
 import requests
 import logging
-from ....types.audio import SpeechCreateRequest # Relative import from a4f_local/types/audio.py
+from ....types.audio import SpeechCreateRequest
 
 # Optional: Import from provider_1.config if URL/headers/secrets were stored there
 # from ..config import PROVIDER_URL, PROVIDER_HEADERS # Example if config.py existed
@@ -8,7 +8,8 @@ from ....types.audio import SpeechCreateRequest # Relative import from a4f_local
 logger = logging.getLogger(__name__)
 
 # Define standard OpenAI voices supported by this specific provider (OpenAI.fm)
-SUPPORTED_VOICES = ["alloy", "echo", "fable", "onyx", "nova", "shimmer"]
+# Includes standard voices and potentially newer ones if the backend supports them.
+SUPPORTED_VOICES = ["alloy", "echo", "fable", "onyx", "nova", "shimmer", "ash", "coral", "sage"]
 
 # Headers based on the reverse-engineered request in the guide
 # Consider moving sensitive or frequently changing parts to a config file or env vars later
@@ -20,7 +21,7 @@ PROVIDER_HEADERS = {
     "origin": "https://www.openai.fm",
     "referer": "https://www.openai.fm/", # Simplified referer, adjust if needed
     # Using a generic user-agent might be less likely to break than a specific worker JS referer
-    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" # Example UA
+    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"
 }
 PROVIDER_URL = "https://www.openai.fm/api/generate"
 
